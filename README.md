@@ -25,3 +25,16 @@ BinaryAlchemy is a project for collecting known and commonly found executables i
 
 ````
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Persistence
+### Windows Terminal Profile creation
+
+````
+ [Windows Terminal Profile Creator](https://github.com/Miragle-Hub/Persistence-in-Windows/blob/main/Persistence_P0C.ps1)
+
+````
+### LNK Shorcut
+````
+[Windows Shortcut Persistence Script](https://github.com/Miragle-Hub/Persistence-in-Windows/blob/main/Lnk%20Persistence.ps1)
+
+````
+
