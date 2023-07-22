@@ -15,6 +15,17 @@ BinaryAlchemy is a project for collecting known and commonly found executables i
 - & "C:\Program Files\Microsoft VS Code\Code.exe" --disable-gpu-sandbox --gpu-launcher="calc.exe"
 
 ````
+
+### Wireshark
+````
+& 'C:\Program Files\Wireshark\tshark.exe' -X lua_script:'<path of lua script>'
+& 'C:\Program Files\Wireshark\wireshark.exe' -X lua_script:'<path of lua script>' (Wireshark also opens while executing)
+
+lua file content
+-- mention the binary that needs to be executed
+ os.execute('C:\\Windows\\notepad.exe')
+ ````
+ 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Download
