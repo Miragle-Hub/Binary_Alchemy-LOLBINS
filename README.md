@@ -25,6 +25,12 @@ lua file content
 -- mention the binary that needs to be executed
  os.execute('C:\\Windows\\notepad.exe')
  ````
+### MMC
+````
+**Required powershell with administrative privilege.**
+$com = [activator]::CreateInstance([type]::GetTypeFromProgID("MMC20.application"))
+$com.Document.ActiveView.ExecuteShellCommand("C:\windows\system32\notepad.exe",$null,$null,"7")
+ ````
  
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
