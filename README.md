@@ -46,7 +46,7 @@ $com.Document.ActiveView.ExecuteShellCommand("C:\windows\system32\notepad.exe",$
 ### Windows Terminal Profile creation
 
 ````
- [Windows Terminal Profile Creator](https://github.com/Miragle-Hub/Persistence-in-Windows/blob/main/Persistence_P0C.ps1)
+ [Windows Terminal Profile Creator](https://github.com/Miragle-Hub/Adversary-tactics-and-techniques-for-Windows/blob/main/Persistence/Lnk%20Persistence.ps1)
 
 ````
 ### LNK Shorcut
@@ -54,4 +54,9 @@ $com.Document.ActiveView.ExecuteShellCommand("C:\windows\system32\notepad.exe",$
 [Windows Shortcut Persistence Script](https://github.com/Miragle-Hub/Persistence-in-Windows/blob/main/Lnk%20Persistence.ps1)
 
 ````
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Credential theft
+
+````
+[BurpSuite password for Proxy connections] 
 
