@@ -1,4 +1,4 @@
-# Binary_Alchemy-LOLBINS
+# Binary_Alchemy-LOLAPPS
 BinaryAlchemy is a project for collecting known and commonly found executables in action for red teamers.
 
 # Execution
